@@ -1,0 +1,18 @@
+{
+    "debug": true,
+    "dev_mode": true,
+    "secret_key": "p5_js22y*=i#(3)-%v95r5=g1*pwqyy(r^f-eth%kjpxc=-nfx",
+    "allowed_hosts": ["*"],
+    "sql_logging": true,
+    "database": {
+        "engine": "django.db.backends.mysql",
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "test",
+        "name": "djreact",
+        "test": {
+            "name": "djreacttest"
+        }
+    }
+}

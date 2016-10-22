@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    {% load render_bundle from webpack_loader %}
+
+    <div id="App1"></div>
+    {% render_bundle 'vendors' %}
+    {% render_bundle 'App1' %}
+
+</body>
+</html>
