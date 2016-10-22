@@ -4,7 +4,8 @@
   "author": "pkuphy",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dashboard -- node server.js"
+    "dev": "webpack-dashboard -- node server.js",
+    "build": "./node_modules/.bin/webpack --config webpack.prod.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",

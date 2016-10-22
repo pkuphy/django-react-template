@@ -18,3 +18,17 @@
     ```
 
 打开浏览器 http://localhost:8000
+
+## 生成环境
+
+1. 前端
+
+    ```
+    yarn build
+    ```
+
+2. 后端
+
+    ```
+    dev_mode = False
+    ```

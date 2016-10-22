@@ -7,7 +7,7 @@ module.exports = {
 
   entry: {
     // Add as many entry points as you have container-react-components here
-    App1: './src/App1',
+    index: './src/index',
     vendors: ['react'],
   },
 

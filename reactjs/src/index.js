@@ -14,4 +14,4 @@ if (module.hot) {
   module.hot.accept();
 }
 
-ReactDOM.render(<App1/>, document.getElementById('App1'));
+ReactDOM.render(<App1/>, document.getElementById('main'));

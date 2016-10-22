@@ -10,10 +10,10 @@ config.ip = ip;
 config.devtool = "#eval-source-map";
 
 config.entry = {
-  App1: [
+  index: [
     'webpack-dev-server/client?http://' + ip + ':3000',
     'webpack/hot/only-dev-server',
-    './src/App1',
+    './src/index',
   ],
 };
 
